@@ -6,6 +6,6 @@
 <ol> 
  <ul>Express Js: para criar o servidor.</ul>
 <ul>Nodemon :para monitorar todas as alterações nos arquivos da aplicação e reiniciar automaticamente o servidor quando for necessário.<ul> 
-<ul>Knex : para persistir dados no Banco SQL.<ul>
+<ul>Knex : para persistir dados no Banco SQL.</ul>
 </ol>
 
