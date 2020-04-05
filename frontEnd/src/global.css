@@ -1,10 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
 
 * {
   margin: 0;
   padding: 0;
   outline: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
   background: #f0f0f5;
   -webkit-font-smoothing: antialiased;
 }
+
 input,
 button,
 textarea {
@@ -28,11 +29,12 @@ form input {
   color: #333;
   border: 1px solid #dcdce6;
   border-radius: 8px;
-  padding-left: 24px;
+  padding: 0 24px;
 }
+
 form textarea {
-  resize: vertical;
   width: 100%;
+  resize: vertical;
   min-height: 140px;
   color: #333;
   border: 1px solid #dcdce6;
@@ -57,6 +59,7 @@ form textarea {
   line-height: 60px;
   transition: filter 0.2s;
 }
+
 .button:hover {
   filter: brightness(90%);
 }
@@ -71,6 +74,7 @@ form textarea {
   font-weight: 500;
   transition: opacity 0.2s;
 }
+
 .back-link svg {
   margin-right: 8px;
 }
